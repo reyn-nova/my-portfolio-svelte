@@ -1,13 +1,11 @@
-<main>
-  <span
-    class="icon"
+<span
+  class="icon"
+>
+  <i
+    class="fas fa-envelope-open-text"
   >
-    <i
-      class="fas fa-envelope-open-text"
-    >
-    </i>
-  </span>
-</main>
+  </i>
+</span>
 
 <style>
   .icon {

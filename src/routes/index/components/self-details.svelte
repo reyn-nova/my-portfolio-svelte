@@ -7,37 +7,35 @@
   export let greeting = '', tagline = '', description = ''
 </script>
 
-<main>
-  <div
-		class="self-details"
+<div
+	class="self-details"
+>
+	<img
+		alt={photo.alt}
+		class="self-photo"
+		height="150"
+		src={photo.url}
+		width="150"
 	>
-		<img
-			alt={photo.alt}
-			class="self-photo"
-			height="150"
-			src={photo.url}
-			width="150"
-		>
 
-		<div
-			class="self-name"
-		>
-			{greeting}
-		</div>
-
-		<div
-			class="self-tagline"
-		>
-			{tagline}
-		</div>
-
-		<div
-			class="self-description"
-		>
-			{@html description}
-		</div>
+	<div
+		class="self-name"
+	>
+		{greeting}
 	</div>
-</main>
+
+	<div
+		class="self-tagline"
+	>
+		{tagline}
+	</div>
+
+	<div
+		class="self-description"
+	>
+		{@html description}
+	</div>
+</div>
 
 <style>
   .self-details {

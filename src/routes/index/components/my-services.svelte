@@ -3,46 +3,44 @@
   export let services = []
 </script>
 
-<main>
-  <div
-    class="portfolio-background"
-    {id}
+<div
+	class="portfolio-background"
+	{id}
+>
+	<div
+		class="portfolio-container-title"
 	>
-		<div
-			class="portfolio-container-title"
-		>
-			My Services
-		</div>
-
-		<div
-			class="portfolio-container"
-		>
-			{#each services as service}
-				<div
-					class="portfolio"
-				>
-					<img
-						alt={`${service.thumbnail_url} Thumbnail`}
-						class="portfolio-image"
-						src={service.thumbnail_url}
-					>
-
-					<div
-						class="portfolio-title"
-					>
-						{service.title}
-					</div>
-
-					<div
-						class="portfolio-subtitle"
-					>
-						{service.subtitle}
-					</div>
-				</div>
-			{/each}
-		</div>
+		My Services
 	</div>
-</main>
+
+	<div
+		class="portfolio-container"
+	>
+		{#each services as service}
+			<div
+				class="portfolio"
+			>
+				<img
+					alt={`${service.thumbnail_url} Thumbnail`}
+					class="portfolio-image"
+					src={service.thumbnail_url}
+				>
+
+				<div
+					class="portfolio-title"
+				>
+					{service.title}
+				</div>
+
+				<div
+					class="portfolio-subtitle"
+				>
+					{service.subtitle}
+				</div>
+			</div>
+		{/each}
+	</div>
+</div>
 
 <style>
   .portfolio-background {

@@ -2,28 +2,26 @@
   export let options = []
 </script>
 
-<main>
-  <div
-		class="top-navigation"
-  >
-    {#each options as option}
-      <a
-        class="button"
-        href={option.url}
-      >
-        {#if option.icon != undefined}
-          <div
-            class="icon-container"
-          >
-            <svelte:component this={option.icon}/>
-          </div>
-        {/if}
+<div
+  class="top-navigation"
+>
+  {#each options as option}
+    <a
+      class="button"
+      href={option.url}
+    >
+      {#if option.icon != undefined}
+        <div
+          class="icon-container"
+        >
+          <svelte:component this={option.icon}/>
+        </div>
+      {/if}
 
-        {option.title}
-      </a>
-    {/each}
-	</div>
-</main>
+      {option.title}
+    </a>
+  {/each}
+</div>
 
 <style>
   a {
