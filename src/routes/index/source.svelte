@@ -44,7 +44,7 @@
 			{
 				thumbnail_url: "https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYnNpdGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
 				title: "Front-End Developer",
-				subtitle: "I have abilities to program Front-End side using HTML and CSS or with JavaScript Framework using React.js."
+				subtitle: "I have abilities to program Front-End side using HTML and CSS or with JavaScript Framework using React.js or Svelte.js."
 			},
 			{
 				thumbnail_url: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
