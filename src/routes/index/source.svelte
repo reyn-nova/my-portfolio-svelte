@@ -2,10 +2,10 @@
 	import TopNavigation from './components/top-navigation.svelte'
 	import SelfDetails from './components/self-details.svelte'
 	import MyServices from './components/my-services.svelte'
-	import FindMeOn from './components/find-me-on.svelte'
+	import ConnectWithMeOn from './components/connect-with-me-on.svelte'
 
 	import MyServicesIcon from './components/my-services-icon.svelte'
-	import ConnectWithMeIcon from './components/connect-with-me-icon.svelte'
+	import ConnectWithMeOnIcon from './components/connect-with-me-on-icon.svelte'
 
 	let myServicesId = "my-services"
 	let connectWithMeId = "connect-with-me"
@@ -20,7 +20,7 @@
 				url: `#${myServicesId}`
 			},
 			{
-				icon: ConnectWithMeIcon,
+				icon: ConnectWithMeOnIcon,
 				title: 'Connect With Me',
 				url: `#${connectWithMeId}`
 			}
@@ -63,7 +63,7 @@
 		]}
 	/>
 	
-	<FindMeOn
+	<ConnectWithMeOn
 		id = {connectWithMeId}
 		options = {[
 			{
