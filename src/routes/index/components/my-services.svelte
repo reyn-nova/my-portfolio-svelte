@@ -48,7 +48,7 @@
 		background-color: rgb(247, 247, 247);;
 		display: flex;
 		flex-direction: column;
-		min-height: calc(100vh - 70px);
+		min-height: calc(100vh - 80px);
 		padding: 10px;
 		justify-content: center;
 	}
@@ -66,7 +66,7 @@
 
 	.portfolio-container-title::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 
 	.portfolio-container {
@@ -98,7 +98,7 @@
 
 	.portfolio-title::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 
 	.portfolio-subtitle {
@@ -110,6 +110,6 @@
 
 	.portfolio-subtitle::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 </style>

@@ -28,31 +28,34 @@
 		color: black;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 		font-size: 14px;
-		font-weight: bold;
-		text-decoration-line: none;
+    font-weight: bold;
+    text-decoration: none;
   }
   
 	.top-navigation {
 		align-items: center;
-		background-color: white;
+		background-color: rgb(235, 235, 235);
 		display: flex;
-		height: 50px;
+		height: 60px;
 		justify-content: flex-end;
     position: fixed;
-    left: 0;
     top: 0;
-    right: 0;
 		width: 100vw;
   }
   
   .button {
     align-items: center;
+    border-radius: 5px;
     display: flex;
-    margin-right: 20px;
+    margin-right: 10px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 	.button:hover {
-		color: limegreen;
+    background-color: rgb(50, 50, 50);
+		color: crimson;
   }
   
   .icon-container {

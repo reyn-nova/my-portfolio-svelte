@@ -48,7 +48,7 @@
 		padding-left: 20px;
 		padding-right: 20px;
 		min-height: 550px;
-		height: calc(100vh - 50px);
+		height: calc(100vh - 60px);
 	}
 
 	.self-photo {
@@ -66,11 +66,11 @@
 
 	.self-name::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 
 	.self-tagline {
-		color: black;
+		color: crimson;
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 		font-size: 36px;
 		font-weight: bold;
@@ -81,7 +81,7 @@
 
 	.self-tagline::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 
 	.self-description {
@@ -95,11 +95,11 @@
   
   :global(.self-description strong::selection) {
     color: white;
-		background: limegreen;
+		background: crimson;
   }
 
 	.self-description::selection {
 		color: white;
-		background: limegreen;
+		background: crimson;
 	}
 </style>

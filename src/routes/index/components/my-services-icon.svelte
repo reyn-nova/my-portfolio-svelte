@@ -2,13 +2,13 @@
   class="icon"
 >
   <i
-    class="fas fa-envelope-open-text"
+    class="fas fa-building"
   >
   </i>
 </span>
 
 <style>
   .icon {
-		font-size: 20px;
+		font-size: 16px;
 	}
 </style>
